@@ -12,6 +12,10 @@ html{
 .navbar{
     display: flex;
     justify-content: space-between;
+     width: 100%;
+    position: fixed;
+    background-color: rgb(98, 99, 100,0.2);
+    z-index: 1;
 }
 .navbar .text{
     margin: 20px;
